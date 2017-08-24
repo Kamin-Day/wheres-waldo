@@ -1,0 +1,32 @@
+2. Clicking on a Photo
+
+Start with an easier problem: When the user clicks on a photo, log out to the Console the X/Y coordinates of their click.
+
+This will only require HTML and JavaScript, and it'll set up a foundation for you to work from.
+
+3. Visual Feedback
+
+Check out the demos linked above. Notice how each demo has a slightly different take on what visual feedback is provided to the user... from little squares that are placed around the location that the user clicked, to modal windows revealing the success/failure of a click.
+
+Build the functionality for your visual feedback (Keep it simple, at least at first). There's no need for server-side integration yet. Just test out that you can run a function to create your visual feedback.
+
+4. Character Locations
+
+This is the beginning of your server-side functionality. Start by creating your data store. It is probably very simple for now: Just the X and Y coordinates of where Waldo actually is.
+
+5. Location Validation
+
+Your server's job will be to validate whether the coordinates that a user clicked on are close enough to Waldo's location. If they are close enough, the server should send back a message indicating success. Otherwise, it should send back a message indicating failure.
+
+6. Tie it all together!
+
+Use AJAX to send requests to the server each time a user clicks on the photo. Based on the response from the server, show some kind of visual feedback to the user. End the game once Waldo has been found.
+
+7. Timing
+
+Add a feature that times how long it takes the user to find Waldo (starting from when they first load the page). Display their time (which is basically their "score") somewhere on the page. It should be a live timer, so they can feel the pressure.
+
+8. High Scores
+
+Save all of the times/scores to a data store, so that you can add a dynamically generated list of high scores to the website.
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Where Is Waldo??</title>
+  <link rel="stylesheet" href="waldostyle.css">
+  <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body id="waldo">
+
+  <div id="container">
+    <div id="title">Find Waldo - click on him once you think you've found him
+    	
+    </div>
+          
+    <div id="spacer_container">
+        <div id="high_scores">
+        	<div id="timer">
+				<div class="stopwatch"></div>
+        	</div>
+        	<br><br><br>
+           	<%= createLoadList %>
+		</div>
+    <div id="workspace">
+    <div id="play_area">
+        <img id="game_img" src="/waldo1.jpg" alt = "Waldo is in here somewhere!">
+    </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+
+
+<div class="modal" style="display: block">
+    <div class="modal__content">   	
+    	<div class="modal__body">
+			<div class="start_button">
+			    <a href="#" class="button">CLICK HERE TO BEGIN</a>
+        	</div>
+    		<div id="records" style="display: none">
+    			<h1>This is where the records will go</h1>
+    			<ol>
+    				<li> Record</li>
+    				<li> Record</li>
+    				<li> Record</li>
+    			</ol>
+   			</div>
+   			<div id="add_player_score" style="display:none">	
+   			</div>
+    	</div>
+  </div>
+</div>
+
+
+
+
+  </div>
+
+</body>
+</html>
+
+
+
+
+<!-- <div class="puzzle-container">
+  <h1>click on waldo....</h1>
+  <div class="puzzle-div">
+  <img id="puzzle-image" src="/assets/puzzle1-af5d7b4b00d42d0e75934305c5ed9c2c10f398716ea9e69644732f5bf94216be.jpg" alt="Puzzle1" />
+  </div>
+
+  <a href="https://weeping-walleye.herokuapp.com/puzzles">Back to Index</a>
+
+</div> -->
